@@ -1,36 +1,31 @@
-# Grok Conversation Cleaner 🚀
-
+Grok Conversation Cleaner 🚀
 A lightweight, browser-agnostic JavaScript utility designed specifically to automate the "Force Delete" process on the Grok "Deleted Conversations" page. This script saves you from manual clicking by batch-processing all visible deletion buttons in seconds.
 
-## ⚡ Quick Start (Copy & Paste)
+⚡ Quick Start
+To keep your workspace clean and ensure you are using the most up-to-date logic, we have centralized the automation code.
 
-If you just want to run it immediately without downloading any files, copy the one-liner below, paste it into your browser console, and press **Enter**:
-
-```javascript
-Array.from(document.querySelectorAll('button')).filter(b => b.textContent.includes('Force Delete')).forEach((b, i) => setTimeout(() => b.click(), i * 200));
-```
 🛠 How to Use
-Navigate: Go to the Grok Deleted Conversations page (ensure the items you want to delete are visible on the screen).
+Navigate: Go to your Grok Deleted Conversations page.
 
-Open Console: Open your Browser Developer Tools:
+Access the Script: Open the script.js file in this repository and copy the entire code block.
 
-Windows/Linux: F12 or Ctrl + Shift + J
+Open Browser Console: * Windows/Linux: Press F12 or Ctrl + Shift + J
 
-macOS: Cmd + Option + J
+macOS: Press Cmd + Option + J
 
-Paste & Run: Paste the code from script.js (or the one-liner above) into the Console tab and press Enter.
+Paste & Run: Paste the copied code into the Console tab and hit Enter.
 
 🛡 Features
-Batch Automation: Automatically identifies and clicks every "Force Delete" button visible in the DOM.
+Batch Automation: Instantly scans the page and identifies every "Force Delete" button.
 
-Staggered Execution: Includes a 200ms delay between clicks to prevent browser freezing and ensure the server processes each request correctly.
+Staggered Execution: Built-in delays between clicks to prevent browser lag and ensure the server accepts every request.
 
-Simple Logic: Zero dependencies; runs entirely within your browser's native environment.
+Zero Dependencies: Pure JavaScript that runs natively in any modern browser without extensions.
 
 ⚠️ Warning
-This action is irreversible. "Force Delete" typically bypasses the trash/recovery phase. Once the script runs, the conversations are permanently removed from your account. Please use with caution and ensure you are on the correct page before execution.
+This action is permanent. "Force Delete" is a destructive operation that bypasses the recovery phase. Once this script executes, your selected conversations are gone forever. Double-check that you are on the correct page before running the script.
 
 📜 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Developed for the Grok Community. ```
+Built with ❤️ for the Grok Community.
