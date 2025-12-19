@@ -1,18 +1,10 @@
-# Force Delete Automator 🚀
+# Grok Conversation Cleaner 🚀
 
-A simple, browser-agnostic JavaScript snippet to automate clicking "Force Delete" buttons on web pages. Perfect for clearing out long lists of deleted conversations or logs that lack a "Select All" feature.
+A lightweight JavaScript snippet designed specifically to batch-process "Force Delete" actions on the Grok "Deleted Conversations" page. This tool helps users clear their deleted history in seconds without clicking every button manually.
 
-## 🛠 How to Use
+## ⚡ Quick Start (Copy & Paste)
 
-1. Navigate to the page containing the items you wish to delete.
-2. Open the **Browser Console**:
-   - Windows/Linux: `F12` or `Ctrl + Shift + J`
-   - macOS: `Cmd + Option + J`
-3. Copy the code from `script.js` in this repository.
-4. Paste it into the console and press **Enter**.
+For the fastest results, copy the one-liner below, paste it into your browser console, and press **Enter**:
 
-## ⚠️ Warning
-This script clicks buttons automatically. Since "Force Delete" is usually permanent, please ensure you are on the correct page and actually want to delete all visible items before running the script.
-
-## 📜 License
-MIT
+```javascript
+Array.from(document.querySelectorAll('button')).filter(b => b.textContent.includes('Force Delete')).forEach((b, i) => setTimeout(() => b.click(), i * 200));
