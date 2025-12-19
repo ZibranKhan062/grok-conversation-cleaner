@@ -6,7 +6,7 @@ A lightweight, browser-agnostic JavaScript utility designed specifically to auto
 
 ## 🛠 How to Use
 
-1.  **Navigate:** Go to your [Grok Deleted Conversations](https://grok.com) page.
+1.  **Navigate:** Go to your [Grok Deleted Conversations](https://grok.com/deleted-conversations) page.
 2.  **Access the Script:** Open the **`script.js`** file in this repository and copy the entire code block.
 3.  **Open Browser Console:** * **Windows/Linux:** Press `F12` or `Ctrl + Shift + J`
     * **macOS:** Press `Cmd + Option + J`
