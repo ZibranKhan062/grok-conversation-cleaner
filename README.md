@@ -1,4 +1,4 @@
-# Grok CleanPro 🚀✨
+# Grok AI CleanPro 🚀✨
 ### **The Ultimate Utility for Grok Power Users**
 
 [![Firefox Add-on](https://img.shields.io/badge/Firefox-Add--on-orange?style=for-the-badge&logo=firefox-browser)](https://addons.mozilla.org/en-US/firefox/addon/grok-cleanpro/)
